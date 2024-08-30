@@ -22,6 +22,8 @@ pip install -r requirements.txt
 
 [NWPU](https://gjy3035.github.io/NWPU-Crowd-Sample-Code/)
 
+[JHU_CROWD++](http://www.crowd-counting.com/#download)
+
 ## Data preprocess
 
 Edit the root and cls in generate_density.py
