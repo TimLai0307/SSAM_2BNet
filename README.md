@@ -84,7 +84,7 @@ python test.py --weight_path 'checkpoint_path'
 ## Quantitative comparison
 
 
-<img src="https://github.com/TimLai0307/SSN/blob/main/vis/comparison.png" width="1337" height="449">
+<img src="" width="1337" height="449">
 
 Quantitative evaluation on four dataset. We report Mean Abosolute Error (MAE), Root Mean Square Error (RMSE). (Bold means the 1st best; Underline means the 2nd best).
 
@@ -93,7 +93,7 @@ Quantitative evaluation on four dataset. We report Mean Abosolute Error (MAE), R
 
 - Visualize
 
-<img src="https://github.com/TimLai0307/SSN/blob/main/vis/visual.png" width="1279" height="400">
+<img src="" width="1279" height="400">
 
 The generated density map comparison of our method and some other methods on ShanghaiTech PartA dataset. From left to right are input image, ground truth, MCNN, CSRnet, CAN, BL, DM-count, and Ours.
 
@@ -103,7 +103,7 @@ The generated density map comparison of our method and some other methods on Sha
 - Ablation study 
 
 <div align=center>
-<img src="https://github.com/TimLai0307/SSN/blob/main/vis/ablation.png" width="546" height="195">
+<img src="" width="546" height="195">
 </div>
 
 Ablation study of all modual we used with size 128x128 images on ShanghaiTech PartA dataset. We report Mean Abosolute Error (MAE), Root Mean Square Error (RMSE). (Bold means the 1st best; Underline means the 2nd best)
