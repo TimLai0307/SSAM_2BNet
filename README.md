@@ -31,7 +31,7 @@ Edit the root and cls in generate_density.py
 
 root = 'The root of image'
 target_root = 'The root of saving generate ground-truth'
-cls = 'For which dataset' # Ex. SHH, NWPU, UCF_QNRF, UCF_CC_50, 
+cls = 'For which dataset' # Ex. SHH, NWPU, UCF_QNRF, UCF_CC_50, jhu++
 
 ```
 
