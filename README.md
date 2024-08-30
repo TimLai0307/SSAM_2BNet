@@ -31,7 +31,7 @@ Edit the root and cls in generate_density.py
 
 root = 'The root of image'
 target_root = 'The root of saving generate ground-truth'
-cls = 'For which dataset' # Ex. SHHA, NWPU, UCF_QNRF, UCF_CC_50
+cls = 'For which dataset' # Ex. SHH, NWPU, UCF_QNRF, UCF_CC_50, 
 
 ```
 
@@ -61,6 +61,8 @@ python data_preprocess/data_pair.py
 
 ```
 
+## Pretrained model on ShanghaiTech Part A can downloade at here
+["Here"](https://drive.google.com/drive/folders/1URV04UehpIASURLM8V89DVGrOncy3Lei)
 
 ## Backbone pretrained model
 ["Here"](https://drive.google.com/drive/u/4/folders/1QeLZc7_4TZVZ7awRQXNmgvGtPl6OGUAR)
