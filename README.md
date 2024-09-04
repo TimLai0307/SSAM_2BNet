@@ -65,7 +65,7 @@ python data_preprocess/data_pair.py
 ["Here"](https://drive.google.com/drive/folders/1URV04UehpIASURLM8V89DVGrOncy3Lei)
 
 ## Backbone pretrained model
-["Here"](https://drive.google.com/drive/u/4/folders/1QeLZc7_4TZVZ7awRQXNmgvGtPl6OGUAR)
+["Here"](https://download.pytorch.org/models/vgg16_bn-6c64b313.pth)
 
 ## Training
 ```python
