@@ -13,7 +13,7 @@ pip install -r requirements.txt
 
 # How to try
 
-## Download dataset (Places365、CelebA、ImageNet)
+## Download dataset 
 [ShanghaiTech](https://www.kaggle.com/datasets/tthien/shanghaitech)  (no official)
 
 [UCF_CC_50](https://www.crcv.ucf.edu/data/ucf-cc-50/)
@@ -45,19 +45,21 @@ Data_root/
          -train/
                -IMG_1.h5
                -IMG_1.jpg
+               -IMG_1.txt
                ⋮
          -test/
                -IMG_1.h5
                -IMG_1.jpg
+               -IMG_1.txt
                ⋮
  ⋮
 
 ```
 
-Run the data_pair.py to generate data_list
+Run the data_list.py to generate data_list
 ```python
 
-python data_preprocess/data_pair.py
+python data_preprocess/data_list.py
 
 ```
 
@@ -65,7 +67,8 @@ python data_preprocess/data_pair.py
 ["Here"](https://drive.google.com/drive/folders/1URV04UehpIASURLM8V89DVGrOncy3Lei)
 
 ## Backbone pretrained model
-["Here"](https://download.pytorch.org/models/vgg16_bn-6c64b313.pth)
+["VGG16_bn"](https://download.pytorch.org/models/vgg16_bn-6c64b313.pth)
+["VGG16"](https://download.pytorch.org/models/vgg16_bn-6c64b313.pth)
 
 ## Training
 ```python
