@@ -71,7 +71,7 @@ python train.py --data_root 'data_root' --epochs 4000
 ## Run testing
 ```python
 
-python test.py --weight_path 'checkpoint_path'
+python test.py --data_root 'data_root' --weight_path 'checkpoint_path'
 
 ```
 
