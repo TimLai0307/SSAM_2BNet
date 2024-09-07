@@ -26,16 +26,13 @@ pip install -r requirements.txt
 
 ## Data preprocess
 
-Edit the root and cls in generate_density.py
+Run generate_density.py in data_preprocess to generate ground-truth density map and data_list
 ```python
 
-root = 'The root of image'
-target_root = 'The root of saving generate ground-truth'
-cls = 'For which dataset' # Ex. SHH, NWPU, UCF_QNRF, UCF_CC_50, jhu++
+python generate_density.py --data_root 'data_root' --target_root 'target_root' --cls 'cls' # cls=SHH, NWPU, UCF_QNRF, UCF_CC_50, jhu++
 
 ```
 
-Run generate_density.py in data_preprocess to generate ground-truth density map
 
 
 Please put the image and ground-truth in the same folder
@@ -56,12 +53,6 @@ Data_root/
 
 ```
 
-Run the data_list.py to generate data_list
-```python
-
-python data_preprocess/data_list.py
-
-```
 
 ## Pretrained model on ShanghaiTech Part A can downloade at here
 ["Here"](https://drive.google.com/drive/folders/1URV04UehpIASURLM8V89DVGrOncy3Lei)
