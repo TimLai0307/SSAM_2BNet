@@ -60,6 +60,8 @@ Data_root/
 ## Backbone pretrained model
 ["VGG16_bn"](https://download.pytorch.org/models/vgg16_bn-6c64b313.pth)
 ["VGG16"](https://download.pytorch.org/models/vgg16_bn-6c64b313.pth)
+
+
 The backbone pretrained model please put in the backbone_pretrained folder
 
 ## Training
